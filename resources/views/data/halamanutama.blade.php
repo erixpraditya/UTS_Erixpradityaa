@@ -9,7 +9,7 @@
 </head>
 <body>
 
-<table class="table table-dark table-borderless">
+
     <div class=" d-flex align-items-start">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
@@ -25,7 +25,6 @@
           <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">...</div>
         </div>
       </div>
-    </table>
 
 
 <script src="{{asset('js/bootstrap.min.js')}}"></script>
