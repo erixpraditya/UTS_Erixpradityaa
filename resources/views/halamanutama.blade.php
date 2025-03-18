@@ -4,7 +4,7 @@
 
 <head>
     <title>Halaman Utama</title>
-    @include('data.head')
+    @include('layout.head')
 
 </head>
 
@@ -14,7 +14,7 @@
     <div id="wrapper">
 
         <!-- Sidebar -->
-        @include('data.left-side')
+        @include('layout.left-side')
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -24,7 +24,7 @@
             <div id="content">
 
                 <!-- Topbar -->
-                @include('data.nav')
+                @include('layout.nav')
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -73,7 +73,7 @@
             <!-- End of Main Content -->
 
             <!-- Footer -->
-           @include('data.footer')
+           @include('layout.footer')
             <!-- End of Footer -->
 
         </div>
@@ -108,7 +108,7 @@
     </div>
 
     <!-- Bootstrap core JavaScript-->
-   @include('data.script')
+   @include('layout.script')
 
 </body>
 

@@ -13,14 +13,14 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="/halamanutama">
             <i class="fa-sharp fa-solid fa-house"></i>
             <span>Halaman Utama</span></a>
     </li>
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="/siswa">
             <i class="fa-solid fa-user"></i>
             <span>Siswa</span></a>
     </li>
