@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Halaman Utama</title>
+    <title>Siswa</title>
     @include('layout.head')
 
 </head>
