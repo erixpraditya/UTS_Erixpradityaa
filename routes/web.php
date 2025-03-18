@@ -18,5 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/halamanutama', function(){
-    return view('data.halamanutama');
+    return view('halamanutama');
 });
