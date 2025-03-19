@@ -24,3 +24,7 @@ Route::get('/halamanutama', function(){
 Route::get('/siswa', function(){
     return view('siswa');
 });
+
+Route::get('/tambahsiswa', function(){
+    return view('tambahsiswa');
+});

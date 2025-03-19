@@ -31,7 +31,7 @@
 
                 <div class="d-flex justify-content-between align-items-center px-4">
                     <h3 class="m-0">Data Anggota Siswa</h3>
-                    <a class="btn btn-primary" href="form.mahasiswa.php">
+                    <a class="btn btn-primary" href="/tambahsiswa">
                         <i class="fa-solid fa-circle-plus"></i> Tambah Data
                     </a>
                 </div>
