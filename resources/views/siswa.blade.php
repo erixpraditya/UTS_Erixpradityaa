@@ -45,7 +45,8 @@
                             <table class="table" style="width: 100%; height: 300px;">
                                 <thead>
                                     <tr class="table-primary">
-                                        <th scope="col" style="width: 10%; white-space: nowrap;">Nomor Kartu</th>
+                                        <th scope="col" style="width: 10%; white-space: nowrap;">No</th>
+                                        <th scope="col">Nomor Kartu</th>
                                         <th scope="col">Nama Lengkap</th>
                                         <th scope="col">No Hp</th>
                                         <th scope="col">Alamat</th>
@@ -54,21 +55,24 @@
                                 <tbody>
                                     <tr>
                                         <th scope="row">1</th>
-                                        <td>Mark</td>
-                                        <td>Otto</td>
-                                        <td>@mdo</td>
+                                        <td>B001</td>
+                                        <td>Erix Praditya</td>
+                                        <td>085261515247</td>
+                                        <td>JL.Mata Ie II</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@fat</td>
+                                        <td>B002</td>
+                                        <td>Praditya</td>
+                                        <td>085261515247</td>
+                                        <td>JL.Mata Ie I</td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
-                                        <td>Jacob</td>
-                                        <td>Thornton</td>
-                                        <td>@twitter</td>
+                                        <td>B003</td>
+                                        <td>raditya</td>
+                                        <td>085261518723</td>
+                                        <td>JL.Mata Ie</td>
                                     </tr>
                                 </tbody>
                             </table>
