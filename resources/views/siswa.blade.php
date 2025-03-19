@@ -39,9 +39,8 @@
 
 
                 <div class="d-flex justify-content-center align-items-center" style="height: 50vh;">
-                    <div class="card shadow" style="width: 80%; width: 1250px; height: auto;">
+                    <div class="card shadow" style="width: 100%; max-width: 1250px; height: auto;">
                         <div class="card-body text-center">
-
                             <table class="table" style="width: 100%; height: 300px;">
                                 <thead>
                                     <tr class="table-primary">
@@ -50,6 +49,7 @@
                                         <th scope="col">Nama Lengkap</th>
                                         <th scope="col">No Hp</th>
                                         <th scope="col">Alamat</th>
+                                        <th scope="col">Aksi</th> <!-- Tambahkan kolom untuk tombol -->
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -59,6 +59,17 @@
                                         <td>Erix Praditya</td>
                                         <td>085261515247</td>
                                         <td>JL.Mata Ie II</td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa fa-pen-to-square"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">2</th>
@@ -66,31 +77,42 @@
                                         <td>Praditya</td>
                                         <td>085261515247</td>
                                         <td>JL.Mata Ie I</td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa fa-pen-to-square"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </td>
                                     </tr>
                                     <tr>
                                         <th scope="row">3</th>
                                         <td>B003</td>
-                                        <td>raditya</td>
+                                        <td>Raditya</td>
                                         <td>085261518723</td>
                                         <td>JL.Mata Ie</td>
+                                        <td>
+                                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-eye"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa fa-pen-to-square"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                                                <i class="fa-solid fa-trash"></i>
+                                            </button>
+                                        </td>
                                     </tr>
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-
-
-
-
-
-
-                <!-- /.container-fluid -->
-
             </div>
-
-
-
             <!-- End of Main Content -->
 
             <!-- Footer -->
