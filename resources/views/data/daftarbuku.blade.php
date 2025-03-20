@@ -1,6 +1,6 @@
 @extends('master')
 @section('title')
-    Siswa
+    Daftar Buku
 @endsection
 
 @section('konten')
@@ -36,16 +36,16 @@
                         <td>Di pinjam</td>
                         <td>
                            <!-- Tombol untuk membuka modal -->
-                        <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal" id="btnDetail">
+                        <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailbukuModal" id="btnDetail">
                             <i class="fa-solid fa-eye"></i>
                         </button>
-                        @include('layout.detail')
+                        @include('layout.detailbuku')
 
                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/tambahbuku'">
                                 <i class="fa fa-pen-to-square"></i>
                             </button>
 
-                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapusModal" id="btnHapus">
+                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapusbukuModal" id="btnHapus">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
                             @include('layout.hapus')
@@ -94,7 +94,7 @@
                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapusModal" id="btnHapus">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
-                            @include('layout.hapus')
+                            @include('layout.hapusbuku')
                         </td>
                     </tr>
                 </tbody>

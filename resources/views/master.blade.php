@@ -51,7 +51,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="/peminjam">
                     <i class="fa-regular fa-folder-open"></i>
                     <span>Data Peminjaman</span></a>
             </li>
@@ -92,6 +92,7 @@
             <div id="content">
                 @include('layout.nav')
                 @yield('konten')
+
             </div>
 
            @include('layout.footer')

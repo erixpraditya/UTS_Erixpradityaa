@@ -48,3 +48,24 @@ Route::get('/daftarbuku', function(){
 Route::get('/tambahbuku', function(){
     return view('data.tambahbuku');
 });
+
+Route::get('/detailbuku', function(){
+    return view('layout.detailbuku');
+});
+
+Route::get('/hapusbuku', function(){
+    return view('layout.hapusbuku');
+});
+
+Route::get('/peminjam', function(){
+    return view('data.peminjam');
+});
+
+Route::get('/tambahpeminjam', function(){
+    return view('data.tambahpeminjam');
+});
+
+Route::get('/hapuspeminjam', function(){
+    return view('layout.hapuspeminjam');
+});
+
