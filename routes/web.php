@@ -17,14 +17,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/master', function(){
+    return view('master');
+});
+
 Route::get('/halamanutama', function(){
-    return view('halamanutama');
+    return view('data.halamanutama');
 });
 
 Route::get('/siswa', function(){
-    return view('siswa');
+    return view('data.siswa');
 });
 
 Route::get('/tambahsiswa', function(){
-    return view('tambahsiswa');
+    return view('data.tambahsiswa');
 });
