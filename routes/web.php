@@ -40,3 +40,11 @@ Route::get('/detail', function(){
 Route::get('/hapus', function(){
     return view('layout.hapus');
 });
+
+Route::get('/daftarbuku', function(){
+    return view('data.daftarbuku');
+});
+
+Route::get('/tambahbuku', function(){
+    return view('data.tambahbuku');
+});

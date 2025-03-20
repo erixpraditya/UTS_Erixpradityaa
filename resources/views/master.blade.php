@@ -45,7 +45,7 @@
 
             <!-- Nav Item - Tables -->
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="/daftarbuku">
                     <i class="fa-solid fa-book"></i>
                     <span>Daftar Buku</span></a>
             </li>
