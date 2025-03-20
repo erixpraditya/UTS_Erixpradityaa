@@ -40,9 +40,11 @@
                             <i class="fa-solid fa-eye"></i>
                         </button>
                         @include('layout.detail')
-                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1">
+
+                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/tambahsiswa'">
                                 <i class="fa fa-pen-to-square"></i>
                             </button>
+
                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
