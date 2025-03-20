@@ -36,3 +36,7 @@ Route::get('/tambahsiswa', function(){
 Route::get('/detail', function(){
     return view('layout.detail');
 });
+
+Route::get('/hapus', function(){
+    return view('layout.hapus');
+});

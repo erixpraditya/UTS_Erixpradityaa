@@ -45,9 +45,10 @@
                                 <i class="fa fa-pen-to-square"></i>
                             </button>
 
-                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
+                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapusModal" id="btnHapus">
                                 <i class="fa-solid fa-trash"></i>
                             </button>
+                            @include('layout.hapus')
                         </td>
                     </tr>
                     <tr>
