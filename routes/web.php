@@ -32,3 +32,7 @@ Route::get('/siswa', function(){
 Route::get('/tambahsiswa', function(){
     return view('data.tambahsiswa');
 });
+
+Route::get('/detail', function(){
+    return view('layout.detail');
+});

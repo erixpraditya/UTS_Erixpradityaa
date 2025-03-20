@@ -35,9 +35,11 @@
                         <td>085261515247</td>
                         <td>JL.Mata Ie II</td>
                         <td>
-                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal1">
-                                <i class="fa-solid fa-eye"></i>
-                            </button>
+                           <!-- Tombol untuk membuka modal -->
+                        <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#detailModal" id="btnDetail">
+                            <i class="fa-solid fa-eye"></i>
+                        </button>
+                        @include('layout.detail')
                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1">
                                 <i class="fa fa-pen-to-square"></i>
                             </button>
