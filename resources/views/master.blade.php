@@ -63,14 +63,14 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="/hibah">
                     <i class="fa-regular fa-handshake"></i>
                     <span>Daftar Buku Hibah</span></a>
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
-                    <i class="fa-solid fa-book"></i>
+                <a class="nav-link" href="/tentang">
+                    <i class="fa-solid fa-info"></i>
                     <span>Tentang</span></a>
             </li>
 

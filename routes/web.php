@@ -76,3 +76,15 @@ Route::get('/editpengembalian', function(){
 Route::get('/hapuspengembalian', function(){
     return view('layout.hapuspengembalian');
 });
+
+Route::get('/hibah', function(){
+    return view('data.hibah');
+});
+
+Route::get('/edithibah', function(){
+    return view('layout.edithibah');
+});
+
+Route::get('/tentang', function(){
+    return view('data.tentang');
+});
