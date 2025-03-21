@@ -1,14 +1,11 @@
 @extends('master')
 @section('title')
-    Data Peminjam
+    Data Pengembalian
 @endsection
 
 @section('konten')
 <div class="d-flex justify-content-between align-items-center px-4">
-    <h3 class="m-0">Data Peminjam</h3>
-    <a class="btn btn-primary" href="/tambahpeminjam">
-        <i class="fa-solid fa-circle-plus"></i> Tambah Peminjam
-    </a>
+    <h3 class="m-0">Data Pengembalian</h3>
 </div>
 
 
@@ -22,8 +19,10 @@
                         <th scope="col" style="width: 10%; white-space: nowrap;">No</th>
                         <th scope="col">Nama</th>
                         <th scope="col">Nama Buku</th>
-                        <th scope="col">Id Peminjaman</th>
-                        <th scope="col">Tanggal</th>
+                        <th scope="col">Tanggal Peminjaman</th>
+                        <th scope="col">Tanggal Pengembalian</th>
+                        <th scope="col">Selisih Hari</th>
+                        <th scope="col">Denda</th>
                         <th scope="col">Aksi</th> <!-- Tambahkan kolom untuk tombol -->
                     </tr>
                 </thead>
@@ -32,52 +31,60 @@
                         <th scope="row">1</th>
                         <td>Erix Praditya</td>
                         <td>Informatika</td>
-                        <td>11223344</td>
                         <td>23 Maret 2025</td>
+                        <td>25 Maret 2025</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>
                            <!-- Tombol untuk membuka modal -->
-                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/tambahpeminjam'">
+                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
                                 <i class="fa fa-pen-to-square"></i>
                             </button>
 
-                            <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
-                                <h8>Kembalikan</h8>
+                            <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapuspengembalianModal" id="btnHapus">
+                                <i class="fa-solid fa-trash"></i>
                             </button>
-
+                            @include('layout.hapuspengembalian')
                         </td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>Erix Praditya</td>
                         <td>Informatika</td>
-                        <td>11223344</td>
                         <td>23 Maret 2025</td>
+                        <td>25 Maret 2025</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>
                             <!-- Tombol untuk membuka modal -->
-                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/tambahpeminjam'">
+                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
                                  <i class="fa fa-pen-to-square"></i>
                              </button>
 
-                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
-                                <h8>Kembalikan</h8>
-                            </button>
+                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapuspengembalianModal" id="btnHapus">
+                                 <i class="fa-solid fa-trash"></i>
+                             </button>
+                             @include('layout.hapuspengembalian')
                          </td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
                         <td>Erix Praditya</td>
                         <td>Informatika</td>
-                        <td>11223344</td>
                         <td>23 Maret 2025</td>
+                        <td>25 Maret 2025</td>
+                        <td>0</td>
+                        <td>0</td>
                         <td>
                             <!-- Tombol untuk membuka modal -->
-                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/tambahpeminjam'">
+                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
                                  <i class="fa fa-pen-to-square"></i>
                              </button>
 
-                             <button type="button" class="btn btn-info btn-sm text-white" data-bs-toggle="modal" data-bs-target="#detailModal1" onclick="window.location.href='/editpengembalian'">
-                                <h8>Kembalikan</h8>
-                            </button>
+                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#hapuspengembalianModal" id="btnHapus">
+                                 <i class="fa-solid fa-trash"></i>
+                             </button>
+                             @include('layout.hapuspengembalian')
                          </td>
                     </tr>
                 </tbody>

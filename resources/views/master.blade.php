@@ -57,7 +57,7 @@
             </li>
 
             <li class="nav-item">
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="/pengembalian">
                     <i class="fa-regular fa-folder-closed"></i>
                     <span>Data Pengembalian</span></a>
             </li>

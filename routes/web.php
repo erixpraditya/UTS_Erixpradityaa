@@ -65,7 +65,14 @@ Route::get('/tambahpeminjam', function(){
     return view('data.tambahpeminjam');
 });
 
-Route::get('/hapuspeminjam', function(){
-    return view('layout.hapuspeminjam');
+Route::get('/pengembalian', function(){
+    return view('data.pengembalian');
 });
 
+Route::get('/editpengembalian', function(){
+    return view('layout.editpengembalian');
+});
+
+Route::get('/hapuspengembalian', function(){
+    return view('layout.hapuspengembalian');
+});
